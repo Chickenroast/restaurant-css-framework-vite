@@ -13,7 +13,7 @@ export default {
     hot: true,
   },
   build: {
-    outDir: "dist", // Le répertoire de sortie pour les fichiers construits
+    outDir: "../dist", // Le répertoire de sortie pour les fichiers construits
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, "src/main.js"),
