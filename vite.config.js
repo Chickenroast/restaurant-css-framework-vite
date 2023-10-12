@@ -1,6 +1,8 @@
-const path = require("path");
+import path from "path";
+import { resolve } from "path";
+import { defineConfig } from "vite";
 
-export default {
+export default defineConfig({
   base: "/restaurant-css-framework-vite/",
   root: path.resolve(__dirname, "src"),
   resolve: {
@@ -27,4 +29,4 @@ export default {
       },
     },
   },
-};
+});
